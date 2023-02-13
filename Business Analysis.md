@@ -23,20 +23,20 @@
 
 # Preliminary operational concept of proposed system
 ## Preliminary operational concept
-### operational policies and constraints;
+### operational policies and constraints
 As a business that is open to the public, this business website must meet ADA requirements. For Member users, a Terms of Service agreement and privacy policy must be developed and adhered to.
 
-### description of the proposed system;
+### description of the proposed system
 The proposed system is a website that can serve as an information hub about this game studio. The primary information displayed will be information about the game studio and its games.
 
 
-### modes of system operation;
+### modes of system operation
 The modes of system operations are operational and maintenance. When the system is available, the mode of operation will be operation and maintenance otherwise.
 
-### user classes and other involved personnel; and
+### user classes and other involved personnel
 There are 3 user classes: Guest, Member, and Maintainer. 
 Member
-### support environment.
+### support environment
 Post-project support will be provided at the discretion of the business owner, while support during the development phase will be handled by the development team.
 
 ## Preliminary operational scenarios
