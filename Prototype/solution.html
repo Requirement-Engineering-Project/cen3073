@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/solution.css">
+</head>
+
+<body>
+
+<!-- Navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#"><div>"logo"</div></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarColor01">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#features">Features</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#Browse-games">Browse</a>
+            </li>
+        </ul>
+        <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </div>
+</nav>
+
+<!-- Home -->
+<section id="title" class="background" style="height: 40rem;">
+    <div class="welcome-container" style="height: 20rem">
+        <div class="welcome">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" style="background: white ; height: 10rem" >
+                        <div style="background-color: grey; height: 20rem; margin-bottom: 2rem">1st game</div>
+                    </div>
+                    <div class="carousel-item">
+                        <div style="background-color: grey; height: 20rem; margin-bottom: 2rem">game on sale</div>
+                    </div>
+                    <div class="carousel-item">
+                        <div style="background-color: grey; height: 20rem; margin-bottom: 2rem">popular game</div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class=""></span>
+                </button>
+            </div>
+            <h1 style="color: white">Welcome</h1>
+        </div>
+    </div>
+</section>
+
+<!-- Features -->
+<section id="features">
+    <div class="container mt-5">
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+            <div class="col d-flex align-items-start">
+                <div>
+                    <h3 class="fs-2">Easy to use.</h3>
+                    <p>mauris commodo quis imperdiet massa.</p>
+                </div>
+            </div>
+            <div class="col d-flex align-items-start">
+                <div>
+                    <h3 class="fs-2">Elite Clientele.</h3>
+                    <p>eleifend mi in nulla posuere.</p>
+                </div>
+            </div>
+            <div class="col d-flex align-items-start">
+                <div>
+                    <h3 class="fs-2">Find Games.</h3>
+                    <p>bibendum est ultricies integer quis.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="Browse-games">
+    <div class="my-5">
+        <div class="p-5 text-center bg-body-tertiary">
+            <div class="container py-5">
+                <h2 class="text-body-emphasis">Browse</h2>
+                <p class="col-lg-8 mx-auto lead mt-2">mattis ullamcorper velit sed ullamcorper</p>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-12">
+                        <img src="" alt="game gif" height="30">
+                        <div class="col">
+                            <div class="card mb-4 rounded-3 shadow-sm border-dark">
+                                <div class="card-header py-3 text-bg-dark border-dark">
+                                    <h4 class="my-0 fw-normal">Game</h4>
+                                </div>
+                                <div class="card-body">
+                                    <div style="background-color: grey; height: 20rem; margin-bottom: 2rem"></div>
+                                    <button type="button" class="w-100 btn btn-lg btn-dark">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-12">
+                        <img src="" alt="game gif" height="30">
+                        <div class="col">
+                            <div class="card mb-4 rounded-3 shadow-sm border-dark">
+                                <div class="card-header py-3 text-bg-dark border-dark">
+                                    <h4 class="my-0 fw-normal">Game</h4>
+                                </div>
+                                <div class="card-body">
+                                    <div style="background-color: grey; height: 20rem; margin-bottom: 2rem"></div>
+                                    <button type="button" class="w-100 btn btn-lg btn-dark">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-12">
+                        <img src="" alt="game gif" height="30">
+                        <div class="col">
+                            <div class="card mb-4 rounded-3 shadow-sm border-dark">
+                                <div class="card-header py-3 text-bg-dark border-dark">
+                                    <h4 class="my-0 fw-normal">Game</h4>
+                                </div>
+                                <div class="card-body">
+                                    <div style="background-color: grey; height: 20rem; margin-bottom: 2rem"></div>
+                                    <button type="button" class="w-100 btn btn-lg btn-dark">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-12">
+                        <img src="" alt="game gif" height="30">
+                        <div class="col">
+                            <div class="card mb-4 rounded-3 shadow-sm border-dark">
+                                <div class="card-header py-3 text-bg-dark border-dark">
+                                    <h4 class="my-0 fw-normal">Game</h4>
+                                </div>
+                                <div class="card-body">
+                                    <div style="background-color: grey; height: 20rem; margin-bottom: 2rem"></div>
+                                    <button type="button" class="w-100 btn btn-lg btn-dark">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Browse -->
+<section id="Browse-top-games">
+    <div class="container">
+        <div class=" p-3 pb-md-4 mx-auto text-center">
+            <h2 class="display-4 fw-normal">Top Games</h2>
+            <p class="fs-5 text-body-secondary">diam volutpat commodo sed egestas</p>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+            <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm border-dark">
+                    <div class="card-header py-3 text-bg-dark border-dark">
+                        <h4 class="my-0 fw-normal">Game</h4>
+                    </div>
+                    <div class="card-body">
+                        <div style="background-color: grey; height: 20rem; margin-bottom: 2rem"></div>
+                        <button type="button" class="w-100 btn btn-lg btn-dark">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm border-dark">
+                    <div class="card-header py-3 text-bg-dark border-dark">
+                        <h4 class="my-0 fw-normal">Game</h4>
+                    </div>
+                    <div class="card-body">
+                        <div style="background-color: grey; height: 20rem; margin-bottom: 2rem"></div>
+                        <button type="button" class="w-100 btn btn-lg btn-dark">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm border-dark">
+                    <div class="card-header py-3 text-bg-dark border-dark">
+                        <h4 class="my-0 fw-normal">Game</h4>
+                    </div>
+                    <div class="card-body">
+                        <div style="background-color: grey; height: 20rem; margin-bottom: 2rem"></div>
+                        <button type="button" class="w-100 btn btn-lg btn-dark">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<section id="contact" class="gradient-background">
+    <div class="container ">
+        <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 m-10 border-top">
+            <div class="col mb-3">
+                <p class="text-body-secondary">©Prototype</p>
+            </div>
+            <div>
+                <h5>Section</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Browse</a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</section>
+</body>
+
+</html>
